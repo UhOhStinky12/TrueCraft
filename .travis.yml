@@ -13,3 +13,7 @@ script:
         mono \
             ./testrunner/NUnit.ConsoleRunner.3.2.1/tools/nunit3-console.exe \
             ./TrueCraft.Core.Test/TrueCraft.Core.Test.csproj
+deploy:
+provider: heroku
+api_key:
+secure: "teehee"
